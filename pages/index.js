@@ -10,7 +10,7 @@ function HomePage() {
       }}
     > 
       <h1 style={{ fontFamily: 'fantasy', color: '#4b9be1' }}>
-        {`Hello! This is my website!`}
+        {`Hello! I'm jiho! This is my first website!`}
       </h1>
       <h2
         style={{
