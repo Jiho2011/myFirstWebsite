@@ -57,6 +57,27 @@ function HomePage() {
       >
         {"What's your name?"}
       </button>
+      <button
+      style={{
+        fontFamily: 'fantasy',
+        padding: '1rem',
+        fontsize: '10rem',
+        background: 'purple',
+        color: 'white',
+        marginTop: '2rem',
+        marginBottom: '2rem'
+      }}
+      onClick={ () => {
+        let hobby = prompt("What's your hobby?");
+        if (hobby) { 
+          alert('Aha' + '!' + ' ' + 'Your' + ' ' + 'hobby' + ' ' + 'is' + ' ' + hobby + '!' + ' ' + 'Nice' + '!' );
+        } else { 
+          alert('Hmm...' + ' ' + 'What is your hobby?');
+        }
+      }}
+      >
+      {"What's your hobby?"}
+      </button>
     </div>
   );
 }
